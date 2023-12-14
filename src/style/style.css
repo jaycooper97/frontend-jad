@@ -1,0 +1,82 @@
+/* Style Sheet */
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgba(255, 113, 47, 0.9);
+
+} */
+
+/* Footer */
+footer {
+  font-family: Arial, sans-serif;
+  margin-top: auto; /* Push the footer to the bottom of the container */
+  width: 100%;
+  padding-top: 20px; /* Adjusted from percentage to pixels */
+  font-style: italic;
+  display: flex;
+  justify-content: center;
+  background-color: #003087;
+  color: white; /* Added text color */
+}
+
+.footer-line {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+}
+
+footer .FontAwesomeIcon {
+  margin-top: 20px; /* Adjusted from percentage to pixels */
+}
+
+/* Additional style for the bottom section */
+.footer-bottom {
+  text-align: center;
+  padding: 10px; /* Adjusted from percentage to pixels */
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.footer-bottom p {
+  margin: 0;
+}
+
+.footer-bottom a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+  footer .text-center {
+    /* border-style: solid;
+    border-width: 20px 20px 20px 20px;
+    border: #003087; */
+  }
+
+
+  /* About */
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  .content h4, .title-content {
+    display: flex;
+      justify-content: center;
+      align-items: center;
+      /* height: 100vh; Adjust if needed */
+  }
+  /* Parking */
+
+main {
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
